@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="155dp"
+            android:layout_height="30dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:text="Temperature units" />
+
+        <GridLayout
+            android:layout_width="389dp"
+            android:layout_height="100dp"
+            android:columnCount="2"
+            android:rowCount="2"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="85dp">
+
+            <Button
+                android:id="@+id/celfa"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Celsius to fahrenheit" />
+
+            <Button
+                android:id="@+id/fahcel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Fahrenheit to Celsius" />
+
+            <Button
+                android:id="@+id/celkel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Celsius to Kelvin" />
+
+            <Button
+                android:id="@+id/kelcel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Kelvin to Celsius" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:text="Distancia units" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="2"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="85dp">
+
+            <Button
+                android:id="@+id/celfa"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Meter to Centimeter" />
+
+            <Button
+                android:id="@+id/fahcel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Centimeter to Meter" />
+
+            <Button
+                android:id="@+id/celkel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Centimeter to Inch" />
+
+            <Button
+                android:id="@+id/kelcel"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:text="Inch to Centemeter" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
